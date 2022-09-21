@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
+    font-size: 24px;
+}
+
+.form {
+    margin-top: 24px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+input {
+    width: 100%;
+    display: block;
+}
+
+
+input[type=text], input[type=password], input[type=url], input[type=number] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset], button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img {
+    background: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 12px 12px 2px 1px #b5d8cb;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+ul {
+    margin-top: 24px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+li {
+    margin-bottom: 12px;
+    color: black;
+    border-radius: 4px;
+    background: #f7f7f7;
+    font-size: 18px;
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.one-line {
+    display: flex;
+}
+
+.one-line button {
+    margin-top: -25px;
+    margin-bottom: 200px
+}
